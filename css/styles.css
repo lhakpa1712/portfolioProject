@@ -1,0 +1,42 @@
+.body{
+    width: 100%;
+    height: auto;
+    font-family:"Zen Dots"
+}
+header{
+    background-color: rgb(255, 255, 255);
+}
+.nav-item{
+    margin: 10px, 20px;
+    padding: 20px;
+}
+
+#tnNavbar{
+    align-items: center;
+    
+}
+
+.navbar-nav{
+    width:80%;
+}
+.row-content {
+    padding: 40px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px; 
+}
+
+h1, h2, h3 {
+        font-family:"Zen Dots" 
+}
+
+.jumbotron{
+    margin: 0px;
+    padding: 30px;
+    background-image: linear-gradient(to right, #242724, #1a2c30, #28302a);
+    color: white; 
+}
+#bodycolor{
+    background-color: rgb(240, 240, 246);
+}
+
+

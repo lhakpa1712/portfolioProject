@@ -1,0 +1,38 @@
+$body-font:"Open Sans", sans-serif;
+
+
+.body{
+    width: 100%;
+    height: auto;
+    font-family:"Zen Dots"
+}
+header{
+    background-color: rgb(192, 115, 115);
+}
+.nav-item{
+    margin: 10px, 20px;
+    padding:20px ;
+}
+
+#searchBar{
+    border-radius: 20px;
+    margin-top: 0;
+    
+}
+#tnNavbar{
+    align-items: center;
+}
+
+.navbar-nav{
+    width: auto;
+}
+.row-content {
+    padding: 40px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px; }
+h1, h2, h3 {
+        font-family: "Lobster", cursive; }
+
+.jumbotron-fluid{
+    font-family: $body-font;
+}
