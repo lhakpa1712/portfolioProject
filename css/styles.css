@@ -1,23 +1,30 @@
-.body{
+body{
     width: 100%;
     height: auto;
-    font-family:"Zen Dots"
-}
-header{
+    font-family:"ZEN DOT";
     background-color: rgb(255, 255, 255);
 }
-.nav-item{
-    margin: 10px, 20px;
-    padding: 20px;
+header{
+    background-image: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
+   
 }
-
-#tnNavbar{
-    align-items: center;
+.nav-item{
+    margin: 10px 30px; 
+    padding:10px;
     
 }
 
+#tnNavbar{
+     align-items: center; 
+     font-family:"Russo One" , sans-serif;
+    
+}
+.form-control{
+    border: 0;
+}
+
 .navbar-nav{
-    width:80%;
+    width:100%; 
 }
 .row-content {
     padding: 40px 0;
@@ -30,13 +37,80 @@ h1, h2, h3 {
 }
 
 .jumbotron{
-    margin: 0px;
-    padding: 30px;
-    background-image: linear-gradient(to right, #242724, #1a2c30, #28302a);
+    margin:0;
+    padding-top: 400px;
     color: white; 
+    min-height: 700px;
+    background-image: url(https://images.pexels.com/photos/2475235/pexels-photo-2475235.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: 100%;
+}
+#site-search {
+    font-family: "RingsideRegularSSm-Book_Web",sans-serif;
+    color: #010101;
+    font-weight: 400;
+    border-radius:3px;
+    border:1px solid gray
 }
 #bodycolor{
-    background-color: rgb(240, 240, 246);
+    background-color:#f3f2f6;
+   
 }
 
+#logo{
+    height: 100px;
+}
+.carousel .carousel-item{
+    height:600px;
+}
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+ }
+.carousel-item h3{
+    color: black;
+}
+.newArrivals{
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding-top:0px;
+    margin-top:-5px ;
+} 
+#subNavbar li{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Russo One" , sans-serif;
+}
+#subNavbar a{
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+}
+#subNavbar a:hover{
+    text-decoration: underline 10px solid rgb(92, 92, 91);
+}
+#popularBrands a{
+    font-family: "Russo One" , sans-serif;
+    font-size: 14px;
+}
+#popularBrands h3{
+    font-family: "Russo One" , sans-serif;
+    font-size: 18px;
+}
+.card-body{
+    background-color: #f1f1f1;
+}
+.card-text{
+    font-family: "Russo One" , sans-serif;
+    font-size: 16px;
+}
+.card-title{
+    font-size: 20px;
+    font-family: Zen dot;
+}
+#cardImg{
+    width: auto;
+    height:;
 
+}

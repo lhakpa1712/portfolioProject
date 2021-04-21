@@ -7,3 +7,6 @@ $(function() {
         $(".carousel").carousel("cycle");
     });
 });
+
+
+        
