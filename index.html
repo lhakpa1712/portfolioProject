@@ -13,37 +13,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="container-fluid">
-        <nav class="navbar navbar-expand-sm navbar-light row sticky-top">
-                <button class="navbar-toggler float-left" type="button"
+    <header class="container">
+            <nav class="navbar navbar-expand-sm navbar-light row sticky-top ">
+                <img id="logo" src="img/LogoMakr-1Xro9u.png" class="logo ml-5 ">
+                <h3 style="font-family: Russo One, sans-seri;">ThriftIN</h3>   
+                <button class="navbar-toggler" type="button"
                 data-toggle="collapse" data-target="#tnNavbar">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-                <img id="logo" src="img/LogoMakr-1Xro9u.png" class="logo ml-5 mr-2 "><h3 style="font-family: Russo One, sans-seri";>ThriftIN</h3>   
-                <div class="collapse navbar-collapse ml-5 " id="inputNavbar">
-                    <div class="input-group">
-                    <input type="search" id="site-search" class="form-control" placeholder="Search for brands, styles or sellers." />
-                    </div>    
+                <div class="collapse navbar-collapse ml-5" id="tnNavbar">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" id="site-search" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                    <ul class="navbar-nav nav-main-wrapper">
+                        <li class="nav-item active"><a class="nav-link" href="#">NEWARRIVAL</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutus.html">APP</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutus.html">ABOUT</a></li>                                
+                        <li class="nav-item"><a class="nav-link" href="#">HELP</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">LOGIN</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">SIGN UP</a></li>
+                        <li class="nav-item"><a href="#" type="button" class="btn btn-success">Sell</a></li>
+                    </ul>
                 </div>
-                <div class="collapse navbar-collapse ml-5">
-                <ul class="navbar-nav" id="tnNavbar">
-                    <li class="nav-item active"><a class="nav-link" href="#">NEWARRIVAL</a></li>
-                    <li class="nav-item"><a class="nav-link" href="aboutus.html">APP</a></li>
-                    <li class="nav-item"><a class="nav-link" href="aboutus.html">ABOUT</a></li>                                
-                    <li class="nav-item"><a class="nav-link" href="#">HELP</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">LOGIN</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">SIGN UP</a></li>
-                    <li class="nav-item"><a href="#" type="button" class="btn btn-success">Sell</a></li>
-                </ul>
-            </div>
-            <button class="navbar-toggler float-right" type="button"
-            data-toggle="collapse" data-target="#inputNavbar">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-        </nav>
+            </nav>
     </header>
-    <main class="">
-        <div class= "jumbotron jumboturon-fluid  d-none d-lg-block">
+    <section class="main">
+        <div class= "jumbotron jumboturon-fluid">
             <div class="container">
                 <div class="row" id="imgText">
                     <div class="col-sm-6">
@@ -55,7 +50,7 @@
             </div>
         </div>
         <div>
-            <ul class="nav justify-content-center navbar-dark nav-tabs " id="subNavbar">
+            <ul class="nav justify-content-center navbar-dark nav-tabs d-flex" id="subNavbar">
                 <li class="">
                 <a class="nav-link" href="#">Sneakers</a>
                 </li>
@@ -80,99 +75,138 @@
             <img class="d-block w-100"src="https://stockx-assets.imgix.net/CSAssets/banner/1USSneakersNikeAirHuaracheScreamGreen2021/Nike_Hurach_Scream_Green_AssetsWebBanner.jpg?auto=compress,format" alt="huarache">
         </div> 
         <div class="container">
-            <div class="row my-3" id="popularBrands" >
-                <h3 class="col-6"> Popular Brands</h3>
+            <div class="row" id="popularBrands" >
+                <h3 class="col-6">New Arrivals <span class="fa fa-home"></span></h3>
                 <h5 class="text-right col-6"><a class=" text-success" href="#">See all</a></h5>
             </div>
-            <div class="row row-cols-1 row-cols-md-5 g-4">
-                <div class="col mb-5">
+            <div class="row row-cols-2 row-cols-md-4 g-4 mb-4">
+                <div class="col ">
                     <div class="card h-100">
-                        <img id="cardImg" src="https://stockx-360.imgix.net/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Images/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Lv2/img01.jpg?auto=compress&q=90&dpr=2&updated_at=1618238995&fit=clip&fm=webp&ixlib=react-9.0.3&w=1246" class="card-img-top" alt="...">
+                        <img id="cardImg" src="https://stockx-360.imgix.net/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Images/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Lv2/img01.jpg?auto=compress&q=90&dpr=2&updated_at=1618238995&fit=clip&fm=webp&ixlib=react-9.0.3&w=1246" class="card-img-top " alt="...">
                         <div class="card-body text-left">
                             <p class="card-title">Nike AirJordan</p>
                             <p class="card-text">$220</p>
                         </div>
                     </div>
                 </div>
-                <div class="col mb-5">
+                <div class="col">
                     <div class="card h-100">
-                        <img id="cardImg" src="https://stockx-360.imgix.net/Air-Jordan-5-Retro-Raging-Bulls-Red-2021/Images/Air-Jordan-5-Retro-Raging-Bulls-Red-2021/Lv2/img01.jpg?auto=compress&q=90&dpr=2&updated_at=1616603755&fit=clip&fm=webp&ixlib=react-9.0.3&w=1246" class="card-img-top" alt="...">
+                        <img id="cardImg" src="https://stockx-360.imgix.net/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Images/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Lv2/img01.jpg?auto=compress&q=90&dpr=2&updated_at=1618238995&fit=clip&fm=webp&ixlib=react-9.0.3&w=1246" class="card-img-top " alt="...">
                         <div class="card-body text-left">
-                            <p class="card-title">Yeezy 250</p>
+                            <p class="card-title">Nike AirJordan</p>
                             <p class="card-text">$220</p>
                         </div>
                     </div>
-                </div>
-                <div class="col mb-5">
-                    <div class="card h-100" style="object-fit: contain;">
-                        <img src="https://s.yimg.com/fz/api/res/1.2/w5Q19T9_6DIC1ZLp1n93iw--~C/YXBwaWQ9c3JjaGRkO2g9MzczMztxPTgwO3c9NTk3Mg--/https://s.yimg.com/bj/c380/c38035ce0cd5819506d1e71f25103580.jpg" class="card-img-top" alt="...">
-                        <div class="text-left">
-                            <h5 class="card-title">Nike AirJordan</h5>
+                </div><div class="col">
+                    <div class="card h-100">
+                        <img id="cardImg" src="https://stockx-360.imgix.net/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Images/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Lv2/img01.jpg?auto=compress&q=90&dpr=2&updated_at=1618238995&fit=clip&fm=webp&ixlib=react-9.0.3&w=1246" class="card-img-top " alt="...">
+                        <div class="card-body text-left">
+                            <p class="card-title">Nike AirJordan</p>
                             <p class="card-text">$220</p>
                         </div>
                     </div>
-                </div>
-                <div class="col mb-5">
-                    <div class="card h-100" style="object-fit: contain;">
-                        <img src="https://s.yimg.com/fz/api/res/1.2/w5Q19T9_6DIC1ZLp1n93iw--~C/YXBwaWQ9c3JjaGRkO2g9MzczMztxPTgwO3c9NTk3Mg--/https://s.yimg.com/bj/c380/c38035ce0cd5819506d1e71f25103580.jpg" class="card-img-top" alt="...">
+                </div><div class="col ">
+                    <div class="card h-100">
+                        <img id="cardImg" src="https://stockx-360.imgix.net/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Images/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Lv2/img01.jpg?auto=compress&q=90&dpr=2&updated_at=1618238995&fit=clip&fm=webp&ixlib=react-9.0.3&w=1246" class="card-img-top " alt="...">
                         <div class="card-body text-left">
-                            <h6 class="card-title">Nike AirJordan</h6>
-                            <h3 class="card-text">$220</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-5">
-                    <div class="card h-100" style="object-fit: contain;">
-                        <img src="https://s.yimg.com/fz/api/res/1.2/w5Q19T9_6DIC1ZLp1n93iw--~C/YXBwaWQ9c3JjaGRkO2g9MzczMztxPTgwO3c9NTk3Mg--/https://s.yimg.com/bj/c380/c38035ce0cd5819506d1e71f25103580.jpg" class="card-img-top" alt="...">
-                        <div class="text-left">
-                            <h5 class="card-title">Nike AirJordan</h5>
+                            <p class="card-title">Nike AirJordan</p>
                             <p class="card-text">$220</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col mb-5 mt-5">
+            <div class="container-fluid">
+                <div class="container">
+                    <h2 id="lines">What is Thrift Nepal?<h2>
+                    
+                    
+                </div>
+            </div>
+            <div class="row" id="popularBrands" >
+                <h3 class="col-6">Most Popular</h3>
+                <h5 class="text-right col-6"><a class=" text-success" href="#">See all</a></h5>
+            </div>
+            <div class="row row-cols-2 row-cols-md-4 g-4">
+                <div class="col">
                     <div class="card h-100">
-                        <img src="https://s.yimg.com/fz/api/res/1.2/w5Q19T9_6DIC1ZLp1n93iw--~C/YXBwaWQ9c3JjaGRkO2g9MzczMztxPTgwO3c9NTk3Mg--/https://s.yimg.com/bj/c380/c38035ce0cd5819506d1e71f25103580.jpg" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Minnewaska State Park</h5>
-                            <p class="card-text">Take a tour to Minnewaska state park?</p>
-                            <button type="button" class="btn-primary">Get Info</button>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Minnewaska, NewYork</small>
+                        <img id="cardImg" src="https://stockx-360.imgix.net/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Images/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Lv2/img01.jpg?auto=compress&q=90&dpr=2&updated_at=1618238995&fit=clip&fm=webp&ixlib=react-9.0.3&w=1246" class="card-img-top " alt="...">
+                        <div class="card-body text-left">
+                            <p class="card-title">Nike AirJordan</p>
+                            <p class="card-text">$220</p>
                         </div>
                     </div>
                 </div>
-                <div class="col mb-5 mt-5">
+                <div class="col ">
                     <div class="card h-100">
-                        <img src="https://s.yimg.com/fz/api/res/1.2/w5Q19T9_6DIC1ZLp1n93iw--~C/YXBwaWQ9c3JjaGRkO2g9MzczMztxPTgwO3c9NTk3Mg--/https://s.yimg.com/bj/c380/c38035ce0cd5819506d1e71f25103580.jpg" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Minnewaska State Park</h5>
-                            <p class="card-text">Take a tour to Minnewaska state park?</p>
-                            <button type="button" class="btn-primary">Get Info</button>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Minnewaska, NewYork</small>
+                        <img id="cardImg" src="https://stockx-360.imgix.net/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Images/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Lv2/img01.jpg?auto=compress&q=90&dpr=2&updated_at=1618238995&fit=clip&fm=webp&ixlib=react-9.0.3&w=1246" class="card-img-top " alt="...">
+                        <div class="card-body text-left">
+                            <p class="card-title">Nike AirJordan</p>
+                            <p class="card-text">$220</p>
                         </div>
                     </div>
-                </div><div class="col mb-5 mt-5">
+                </div><div class="col ">
                     <div class="card h-100">
-                        <img src="https://s.yimg.com/fz/api/res/1.2/w5Q19T9_6DIC1ZLp1n93iw--~C/YXBwaWQ9c3JjaGRkO2g9MzczMztxPTgwO3c9NTk3Mg--/https://s.yimg.com/bj/c380/c38035ce0cd5819506d1e71f25103580.jpg" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Minnewaska State Park</h5>
-                            <p class="card-text">Take a tour to Minnewaska state park?</p>
-                            <button type="button" class="btn-primary">Get Info</button>
+                        <img id="cardImg" src="https://stockx-360.imgix.net/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Images/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Lv2/img01.jpg?auto=compress&q=90&dpr=2&updated_at=1618238995&fit=clip&fm=webp&ixlib=react-9.0.3&w=1246" class="card-img-top " alt="...">
+                        <div class="card-body text-left">
+                            <p class="card-title">Nike AirJordan</p>
+                            <p class="card-text">$220</p>
                         </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Minnewaska, NewYork</small>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img id="cardImg" src="https://stockx-360.imgix.net/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Images/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Lv2/img01.jpg?auto=compress&q=90&dpr=2&updated_at=1618238995&fit=clip&fm=webp&ixlib=react-9.0.3&w=1246" class="card-img-top " alt="...">
+                        <div class="card-body text-left">
+                            <p class="card-title">Nike AirJordan</p>
+                            <p class="card-text">$220</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="popularBrands" >
+                <h3 class="col-6">Accessories</h3>
+                <h5 class="text-right col-6"><a class=" text-success" href="#">See all</a></h5>
+            </div>           
+             <div class="row row-cols-2 row-cols-md-4 g-4 mb-4">    
+                <div class="col">
+                    <div class="card h-100">
+                        <img id="cardImg" src="https://stockx-360.imgix.net/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Images/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Lv2/img01.jpg?auto=compress&q=90&dpr=2&updated_at=1618238995&fit=clip&fm=webp&ixlib=react-9.0.3&w=1246" class="card-img-top " alt="...">
+                        <div class="card-body text-left">
+                            <p class="card-title">Nike AirJordan</p>
+                            <p class="card-text">$220</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img id="cardImg" src="https://stockx-360.imgix.net/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Images/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Lv2/img01.jpg?auto=compress&q=90&dpr=2&updated_at=1618238995&fit=clip&fm=webp&ixlib=react-9.0.3&w=1246" class="card-img-top " alt="...">
+                        <div class="card-body text-left">
+                            <p class="card-title">Nike AirJordan</p>
+                            <p class="card-text">$220</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img id="cardImg" src="https://stockx-360.imgix.net/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Images/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Lv2/img01.jpg?auto=compress&q=90&dpr=2&updated_at=1618238995&fit=clip&fm=webp&ixlib=react-9.0.3&w=1246" class="card-img-top " alt="...">
+                        <div class="card-body text-left">
+                            <p class="card-title">Nike AirJordan</p>
+                            <p class="card-text">$220</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img id="cardImg" src="https://stockx-360.imgix.net/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Images/Air-Jordan-1-Retro-High-Hyper-Royal-Smoke-Grey/Lv2/img01.jpg?auto=compress&q=90&dpr=2&updated_at=1618238995&fit=clip&fm=webp&ixlib=react-9.0.3&w=1246" class="card-img-top " alt="...">
+                        <div class="card-body text-left">
+                            <p class="card-title">Nike AirJordan</p>
+                            <p class="card-text">$220</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <!-- <div class="container">
             <div class="row row-content">
                 <div class="col-md-10 mx-auto">
                      <div id="homeCarousel" class="carousel slide" data-ride="carousel">
@@ -196,7 +230,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="https://images.pexels.com/photos/3829441/pexels-photo-3829441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Chrome River Campground" />
+                                <img class="img-fluid w-100" src="https://images.pexels.com/photos/3829441/pexels-photo-3829441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Chrome River Campground" />
                                 <div class="carousel-caption text-left">
                                     <div class="card-body">
                                         <h3 class="fw-bold card-title">Accessories</h3>
@@ -220,8 +254,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </main>
+        </div> -->
+    </section>
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
