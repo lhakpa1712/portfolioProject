@@ -5,7 +5,7 @@ body{
     background-color: rgb(255, 255, 255);
 }
 header{
-    background-image: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
+    background-color: white;
        
 }
 .nav-item{
@@ -16,8 +16,8 @@ header{
 .navbar .nav-link{
     font-size: 14px;
     text-transform: uppercase;
-    padding-left:  
-    padding-right: 16px
+    padding-left:10px;  
+    padding-right:16px;
 }
 .navbar-toggler{
     outline: none !important;
@@ -32,13 +32,9 @@ header{
 
 
 .row-content {
-    padding: 40px 0;
-    border-bottom: 1px ridge;
+    padding: 50px 0;
     min-height: 200px; 
-}
-
-h1, h2, h3 {
-        font-family:"Zen Dots" 
+    font-family:"Russo One" , sans-serif ;
 }
 
 .jumbotron{
@@ -48,16 +44,16 @@ h1, h2, h3 {
     min-height: 700px;
     background-image: url(https://images.pexels.com/photos/2475235/pexels-photo-2475235.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover;
+    background-repeat:no-repeat;
 }
-#site-search {
+#siteSearch {
     font-family: "RingsideRegularSSm-Book_Web",sans-serif;
     color: #010101;
     font-weight: 400;
     border-radius:3px;
     border:1px solid gray;
     width: 400px;
-    display: flex;
-    flex-wrap: wrap;
+    
 }
 #bodycolor{
     background-color:#f3f2f6;
@@ -101,6 +97,7 @@ h1, h2, h3 {
 #popularBrands{
     margin-top: 24px;
     margin-bottom: 16px;
+    border-bottom: 1px gray;
 }
 #popularBrands a{
     font-family: "Russo One" , sans-serif;
@@ -110,8 +107,12 @@ h1, h2, h3 {
     font-family: "Russo One" , sans-serif;
     font-size: 18px;
 }
+.card{
+    margin-bottom: 20px;
+}
 .card-body{
     background-color: #f1efef;
+    height: 150px;
 }
 .card-text{
     font-family: "Russo One" , sans-serif;
@@ -121,11 +122,28 @@ h1, h2, h3 {
     font-size: 20px;
     font-family: Zen dot;
 }
-#cardImg{
-    overflow: hidden;
-    position: relative;
-    display: block;
+.cardImg{
+    height: 150px;
+    object-fit: contain;
 }
 .lines{
     font-family: "Russo One" , sans-serif;
+}
+.lines h4{
+    font-family: "Zen dots";
+}
+.tNepal{
+    max-height: 31.25 rem;
+}
+.site-footer{
+    margin-top: 25px;
+    padding-top: 25px;
+    background-image: linear-gradient(to right, #1a4426, #215323, #234221);
+    color: white;
+    font-family:  "Russo One" , sans-serif;
+    font-size:16px;
+
+}
+.site-footer li a{
+    color: white;
 }
