@@ -1,39 +1,177 @@
-$body-font:"Open Sans", sans-serif;
+$color-primary:#3a5f3a;
+$header-font: "ZEN dot";
+$body-font: "Russo One" , sans-serif;
 
 
 
-.body{
+body{
     width: 100%;
     height: auto;
-    font-family:"Zen Dots"
+    font-family:$header-font;
+    background-color: rgb(255, 255, 255);
 }
 header{
-    background-color: rgb(192, 115, 115);
+    background-color: white;
+       
 }
 .nav-item{
-    margin: 10px, 20px;
-    padding:20px ;
-}
-
-#searchBar{
-    border-radius: 20px;
-    margin-top: 0;
+    margin: 10px 30px; 
+    padding:10px;
     
 }
+.navbar .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left:10px;  
+    padding-right:16px;
+}
+.navbar-toggler{
+    outline: none !important;
+}
 #tnNavbar{
-    align-items: center;
+     align-items: center; 
+     font-family:$body-font;
+}
+.form-control{
+    border: 0;
 }
 
-.navbar-nav{
-    width: auto;
-}
+
 .row-content {
-    padding: 40px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px; }
-h1, h2, h3 {
-        font-family: "Lobster", cursive; }
+    padding: 50px 0;
+    min-height: 200px; 
+    font-family:$body-font ;
+}
 
-.jumbotron-fluid{
+.jumbotron{
+    margin:0;
+    padding-top: 400px;
+    color: white; 
+    min-height: 700px;
+    background-image: url(https://images.pexels.com/photos/2475235/pexels-photo-2475235.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+#siteSearch {
+    font-family: "RingsideRegularSSm-Book_Web",sans-serif;
+    color: #010101;
+    font-weight: 400;
+    border-radius:3px;
+    border:1px solid gray;
+    width: 400px;
+    
+}
+#bodycolor{
+    background-color:#f3f2f6;
+   
+}
+
+#logo{
+    height: 100px;
+}
+.carousel .carousel-item{
+    height:600px;
+}
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+ }
+.carousel-item .carousel-body{
+    color: black;
+}
+.newArrivals{
+    color: black;
+    background-color: white;
+    text-align: center;
+   
+} 
+#subNavbar li{
+    font-weight: 500;
+    font-size: 18px;
     font-family: $body-font;
+}
+#subNavbar a{
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+}
+#subNavbar a:hover{
+    text-decoration: underline 10px solid rgb(92, 92, 91);
+}
+
+#popularBrands{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    border-bottom: 1px gray;
+}
+#popularBrands a{
+    font-family: $body-font;
+    font-size: 14px;
+}
+#popularBrands h3{
+    font-family: $body-font;
+    font-size: 18px;
+}
+.card{
+    margin-bottom: 20px;
+}
+.card-body{
+    background-color: #f1efef;
+    height: 150px;
+}
+.card-text{
+    font-family: $body-font;
+    font-size: 16px;
+}
+.card-title{
+    font-size: 20px;
+    font-family: $header-font;
+}
+.cardImg{
+    height: 150px;
+    object-fit: contain;
+}
+.lines{
+    font-family: $body-font;
+}
+.lines h4{
+    font-family: $header-font;
+}
+.tNepal{
+    max-height: 31.25 rem;
+}
+.site-footer{
+    margin-top: 25px;
+    padding-top: 25px;
+    background-image: linear-gradient(to right, #1a4426, #215323, #234221);
+    color: white;
+    font-family:$body-font;
+    font-size:16px;
+
+}
+.site-footer li a{
+    color: white;
+}
+.download{
+    padding-top: 200px;
+    min-height: 300px;
+    max-height: 800px;
+    object-fit:contain;
+    background-position: 20%;
+    background-image:url(https://images.unsplash.com/photo-1525562723836-dca67a71d5f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80);    font-family: "Russo One" , sans-serif;
+}
+.download-1{
+    font-family: $body-font;
+    padding-top: 200px;
+    color:rgb(3, 3, 3);
+}
+.download-bgimg{
+    background-image: url(https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
+    background-position: 0%;
+    min-height: 700px;
+}
+
+.appstore{
+    height: 40px;
 }
